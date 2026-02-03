@@ -214,6 +214,16 @@ header{
     margin-bottom: 40px;
 }
 
+.hero-cta{
+    display: flex;
+    align-items: center;
+}
+
+
+.hero-image{
+    margin-left: 50px;
+}
+
 .hero-details h1{
     font-size: 85px;
     color: var(--heading-color);
@@ -221,10 +231,6 @@ header{
     font-weight: 700;
     line-height: 100px;
     margin-bottom: 12px;
-}
-.hero-cta{
-    display: flex;
-    align-items: center;
 }
 
 .hero-details .sub-text{
@@ -254,6 +260,38 @@ header{
     font-weight: 700;
     font-family: var(--heading-font);
 }
-.hero-image{
-    margin-left: 50px;
+
+.right{
+    position: relative;
+    width: 10%;
+}
+
+/* common style for both tags */
+.Links,
+.Link2 {
+    position: absolute;
+    background: #000;
+    padding: 10px 24px;
+    border-radius: 30px;
+}
+
+.Links a,
+.Link2 a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Orthopedics (top-left) */
+.Links {
+    top: 40px;
+    left: 40px;
+}
+
+/* Cardiology (bottom-right) */
+.Link2 {
+    bottom: 40px;
+    right: 40px;
 }
