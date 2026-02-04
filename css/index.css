@@ -1,42 +1,95 @@
 /*  ============== Common CSS ============= */
 :root {
-    --primary-color: #4F6BD6;
-    --heading-color: #0E0C0A;
-    --primary-black-color: #031B33;
-    --black-dark-color: #0A0A0A;
-    --gray-light-color: #F1FCF9;
+    --primary-color: #4f6bd6;
+    --heading-color: #0e0c0a;
+    --primary-black-color: #031b33;
+    --black-dark-color: #0a0a0a;
+    --gray-light-color: #f1fcf9;
     --white-color: #ffffff;
-    --text-color: #2D4443;
-    --border-color: #E5E5E5;
-
+    --text-color: #2d4443;
+    --border-color: #e5e5e5;
+  
     --heading-font: "Albert Sans", sans-serif;
     --body-font: "Rubik", sans-serif;
-}
-
-
-*{
+  }
+  
+  * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-body{
+  }
+  body {
     font-family: var(--body-font);
-}
-a{
+  }
+  a {
     text-decoration: none;
-}
-ul,li{
+  }
+  ul,
+  li {
     list-style: none;
-}
-.container{
+  }
+  .container {
     max-width: 1314px;
     padding: 0 12px;
     margin: 0 auto;
-}
-
-
-/* ================ Component ============== */
-.btn{
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+  }
+  
+  .col-1 {
+    width: 8.33%;
+    padding: 0 12px;
+  }
+  .col-2 {
+    width: 16.66%;
+    padding: 0 12px;
+  }
+  .col-3 {
+    width: 25%;
+    padding: 0 12px;
+  }
+  .col-4 {
+    width: 33.33%;
+    padding: 0 12px;
+  }
+  .col-5 {
+    width: 41.66%;
+    padding: 0 12px;
+  }
+  .col-6 {
+    width: 50%;
+    padding: 0 12px;
+  }
+  .col-7 {
+    width: 58.33%;
+    padding: 0 12px;
+  }
+  .col-8 {
+    width: 66.66%;
+    padding: 0 12px;
+  }
+  .col-9 {
+    width: 75%;
+    padding: 0 12px;
+  }
+  .col-10 {
+    width: 83.33%;
+    padding: 0 12px;
+  }
+  .col-11 {
+    width: 91.66%;
+    padding: 0 12px;
+  }
+  .col-12 {
+    width: 100%;
+    padding: 0 12px;
+  }
+  
+  /* ================ Component ============== */
+  .btn {
     background-color: var(--primary-color);
     color: var(--white-color);
     font-size: 18px;
@@ -46,29 +99,47 @@ ul,li{
     line-height: 20px;
     border-radius: 10px;
     transition: all 0.5s;
-}
-.btn:hover{
+    display: inline-block;
+  }
+  .btn:hover {
     background-color: var(--primary-black-color);
-}
-
-/* ================= Headrer ================ */
-header{
-    /* background-color: var(--white-color); */
-    background-color: #F8F8F8;
-}
-.top-header{
+  }
+  
+  .badge {
+    font-size: 18px;
+    color: var(--text-color);
+    font-weight: 500;
+    line-height: 24px;
+    font-family: var(--heading-font);
+    padding: 5px 20px;
+    margin-bottom: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    display: inline-block;
+  }
+  .badge i {
+    margin-right: 2px;
+    color: var(--text-color);
+  }
+  
+  /* ================= Headrer ================ */
+  header {
+    position: relative;
+    z-index: 999;
+  }
+  .top-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.menu{
+  }
+  .menu {
     display: flex;
-}
-.menu li{
+  }
+  .menu li {
     padding: 0 17px;
     position: relative;
-}
-.menu li a{
+  }
+  .menu li a {
     color: var(--heading-color);
     font-size: 18px;
     font-family: var(--heading-font);
@@ -77,15 +148,15 @@ header{
     transition: all 0.5s;
     padding: 36px 0;
     display: inline-block;
-}
-.menu li a:hover{
+  }
+  .menu li a:hover {
     color: var(--primary-color);
-}
-.menu li a i{
+  }
+  .menu li a i {
     font-size: 16px;
     /* width: initial; */
-}
-.menu li .sub-menu{
+  }
+  .menu li .sub-menu {
     position: absolute;
     width: 250px;
     box-shadow: 0px 30px 80px 15px rgba(0, 0, 0, 0.09);
@@ -95,28 +166,28 @@ header{
     transition: all 0.5s;
     opacity: 0;
     visibility: hidden;
-}
-.menu li:hover .sub-menu{
+  }
+  .menu li:hover .sub-menu {
     top: 92px;
     opacity: 1;
     visibility: visible;
-}
-.menu li .sub-menu li a{
+  }
+  .menu li .sub-menu li a {
     padding: 15px;
     transition: all 0.4s;
-}
-.menu li .sub-menu li a:hover{
+  }
+  .menu li .sub-menu li a:hover {
     transform: translateX(7px);
-}
-.menu li .sub-menu li.dropdown a{
+  }
+  .menu li .sub-menu li.dropdown a {
     display: flex;
     justify-content: space-between;
-}
-.dropdown:hover .dropdown-menu{
+  }
+  .dropdown:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
-}
-.dropdown-menu {
+  }
+  .dropdown-menu {
     position: absolute;
     width: 250px;
     box-shadow: 0px 30px 80px 15px rgba(0, 0, 0, 0.09);
@@ -128,4 +199,222 @@ header{
     opacity: 0;
     visibility: hidden;
     background-color: var(--white-color);
+  }
+  
+  /* ================= Hero Section ================ */
+  .hero {
+    background-color: var(--gray-light-color);
+    padding-top: 65px;
+  }
+  .hero-details {
+    padding: 105px 0 0;
+    margin-bottom: 40px;
+  }
+  
+  .hero-cta {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero-image {
+    margin-left: 50px;
+  }
+  
+  .hero-details h1 {
+    font-size: 85px;
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+    font-weight: 700;
+    line-height: 100px;
+    margin-bottom: 12px;
+  }
+  
+  .hero-details .sub-text {
+    color: var(--text-color);
+    margin: 0 0 30px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .hero-cta .btn {
+    padding: 15px 44px;
+  }
+  .call-us {
+    display: flex;
+    margin-left: 40px;
+  }
+  .call-us .call-text {
+    margin-left: 20px;
+  }
+  .call-us .call-text p {
+    font-size: 18px;
+    color: var(--text-color);
+    line-height: 30px;
+  }
+  .call-us .call-text a {
+    font-size: 20px;
+    color: var(--heading-color);
+    font-weight: 700;
+    font-family: var(--heading-font);
+  }
+  
+  .right {
+    position: relative;
+    width: 10%;
+  }
+  
+  .Links,
+  .Link2 {
+    position: absolute;
+    background: var(--black-dark-color);
+    padding: 10px 24px;
+    border-radius: 30px;
+  }
+  
+  .Links a,
+  .Link2 a {
+    color: var(--white-color);
+    text-decoration: none;
+    font-family: var(--body-font);
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .Links {
+    top: 95px;
+    left: 95px;
+  }
+  
+  .Link2 {
+    top: 220px;
+    left: 588px;
+  }
+  
+  /* .hero-image .avator-list ul li img{
+      width: 100%;
+      height: 100%;
+      border: 3px solid var(--white-color);
+      border-radius: 50%;
+  
+  }
+  
+  .avator-list ul {
+      position: absolute;
+      display: flex;
+      bottom: 175px;
+      position: absolute;
+      left: 15px;
+  }
+  
+  
+  .avator-list ul{
+      list-style: none;
+  } */
+  
+  /********************about us************************/
+  
+  
+  .about{
+      padding: 120px 0 130px;
+  }
+  .about-img{
+      padding-right: 100px;
+  }
+  .about-img img{
+      display: block;
+      border-radius: 10px;
+  }
+  
+  .about-data .data{
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+  }
+  .data .data-icon{
+      height: 60px;
+      width: 60px;
+      line-height: 60px;
+      border-radius: 100%;
+      background-color: #e7e0ff;
+      text-align: center;
+      margin-right: 20px;
+  }
+  .data-2 .data-icon{
+      background-color: #ffd0cc;
+  }
+  .data .data-icon i{
+      font-size: 22px;
+      color: transparent;
+      -webkit-text-stroke: 1.5px var(--text-color);
+  }
+  .data .data-txt h3{
+      font-size: 24px;
+      color: var(--heading-color);
+      font-family: var(--heading-font);
+      line-height: 34px;
+  }
+  .data .data-txt p{
+      font-size: 18px;
+      color: var(--text-color);
+      line-height: 30px;
+  }
+  .about .about-cta{
+      display: flex;
+  }
+
+  .heading h2{
+      font-size: 36px;
+      font-weight: 700;
+  }
+
+  .heading{
+      margin-bottom: 25px;
+  }
+
+.content > h4{
+    font-size: 24px;
+    line-height: 34px;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+    display: inline-flex;
 }
+
+.happy .text{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    display: flex;
+    
+    align-items: center;
+
+    justify-content: center;
+    background-color: var(--primary-color);
+    margin-right: 20px;
+
+}
+
+.text >h5{
+    font-size: 18px;
+    color: var(--white-color);
+}
+.hours .content .schedule{
+    display: flex;
+  
+    align-items: center;
+   
+    justify-content: space-between;
+    font-size: 18px;
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+    font-weight: 700;
+}
+
+.hours{
+    border: 1px solid #E1EBE8;
+    background-color: var(--gray-light-color);
+    padding: 30px 20px;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
