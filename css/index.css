@@ -1,131 +1,49 @@
-/*  ============== Common CSS ============= */
-:root {
-    --primary-color: #4F6BD6;
-    --heading-color: #0E0C0A;
-    --primary-black-color: #031B33;
-    --black-dark-color: #0A0A0A;
-    --gray-light-color: #F1FCF9;
-    --white-color: #ffffff;
-    --text-color: #2D4443;
-    --border-color: #E5E5E5;
-
-    --heading-font: "Albert Sans", sans-serif;
-    --body-font: "Rubik", sans-serif;
-}
-
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-body{
-    font-family: var(--body-font);
-}
-a{
-    text-decoration: none;
-}
-ul,li{
-    list-style: none;
-}
-.container{
-    max-width: 1314px;
-    padding: 0 12px;
-    margin: 0 auto;
-}
-
-
-/* ================ Component ============== */
-.btn{
+/* ================ Achive ============== */
+.achievement{
     background-color: var(--primary-color);
-    color: var(--white-color);
-    font-size: 18px;
-    font-family: var(--heading-font);
-    padding: 13px 21px;
-    font-weight: 700;
-    line-height: 20px;
-    border-radius: 10px;
-    transition: all 0.5s;
+    padding: 80px 0;
 }
-.btn:hover{
-    background-color: var(--primary-black-color);
-}
-
-/* ================= Headrer ================ */
-header{
-    /* background-color: var(--white-color); */
-    background-color: #F8F8F8;
-}
-.top-header{
-    display: flex;
-    justify-content: space-between;
+.achievement .row{
     align-items: center;
 }
-.menu{
+.achievement .col-3{
+    border-left: 1px solid var(--white-color);
+}
+.achievement .col-3:first-child{
+    border: none;
+}
+.appoint .ppl{
     display: flex;
 }
-.menu li{
-    padding: 0 17px;
-    position: relative;
+.appoint .ppl div{
+    margin-left: -10px;
+    margin-bottom: 15px;
 }
-.menu li a{
-    color: var(--heading-color);
-    font-size: 18px;
+.appoint .ppl div:first-child{
+    margin-left: 0;
+}
+.appoint .ppl img{
+    border-radius: 50%;
+    border: 2px solid var(--white-color);
+}
+.appoint h5{
+    color: var(--white-color);
+    font-size: 24px;
     font-family: var(--heading-font);
-    font-weight: 500;
-    line-height: 18px;
-    transition: all 0.5s;
-    padding: 36px 0;
-    display: inline-block;
+    line-height: 34px;
 }
-.menu li a:hover{
-    color: var(--primary-color);
+.achiev{
+    padding: 0 12px 0 50px;
 }
-.menu li a i{
-    font-size: 16px;
-    /* width: initial; */
+.achiev h2{
+    font-size: 48px;
+    color: var(--white-color);
+    line-height: 65px;
+    font-family: var(--heading-font);
 }
-.menu li .sub-menu{
-    position: absolute;
-    width: 250px;
-    box-shadow: 0px 30px 80px 15px rgba(0, 0, 0, 0.09);
-    border-radius: 7px;
-    padding: 10px 0;
-    top: 120px;
-    transition: all 0.5s;
-    opacity: 0;
-    visibility: hidden;
-}
-.menu li:hover .sub-menu{
-    top: 92px;
-    opacity: 1;
-    visibility: visible;
-}
-.menu li .sub-menu li a{
-    padding: 15px;
-    transition: all 0.4s;
-}
-.menu li .sub-menu li a:hover{
-    transform: translateX(7px);
-}
-.menu li .sub-menu li.dropdown a{
-    display: flex;
-    justify-content: space-between;
-}
-.dropdown:hover .dropdown-menu{
-    opacity: 1;
-    visibility: visible;
-}
-.dropdown-menu {
-    position: absolute;
-    width: 250px;
-    box-shadow: 0px 30px 80px 15px rgba(0, 0, 0, 0.09);
-    border-radius: 7px;
-    padding: 10px 0;
-    left: 250px;
-    top: 0;
-    transition: all 0.5s;
-    opacity: 0;
-    visibility: hidden;
-    background-color: var(--white-color);
+.achiev h5{
+    font-size: 24px;
+    color: var(--white-color);
+    line-height: 34px;
+    font-family: var(--heading-font);
 }
