@@ -649,7 +649,6 @@ span {
   text-align: center;
 }
 
-
 .Working-process .service-icon h2 {
   font-size: 48px;
   font-family: var(--heading-font);
@@ -706,121 +705,119 @@ span {
 /**********choose*******************************/
 /* ============= Choose ============== */
 .choose {
-    padding: 115px 0 90px;
+  padding: 115px 0 90px;
 }
 
 .choose-img {
-    padding-left: 80px;
-    margin-bottom: 70px;
-    position: relative;
+  padding-left: 80px;
+  margin-bottom: 70px;
+  position: relative;
 }
 
 .choose-img img {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .choose-img .play-btn {
-    position: absolute;
-    top: 50%;
-    left: 65%;
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    background-color: var(--primary-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%);
 }
 
 .choose-img .play-btn i {
-    font-size: 22px;
-    color: var(--white-color);
+  font-size: 22px;
+  color: var(--white-color);
 }
 
 .choose .process {
-    padding: 30px 30px 20px;
-    margin-bottom: 40px;
-    border-radius: 10px;
-    text-align: center;
-    background-color: #E7E0FF;
+  padding: 30px 30px 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #e7e0ff;
 }
 
 .choose .process-2 {
-    background-color: #FFD0CC;
+  background-color: #ffd0cc;
 }
 
 .choose .process-3 {
-    background-color: #FFEBC2;
+  background-color: #ffebc2;
 }
 
 .choose .process-4 {
-    background-color: #D1F4C3;
+  background-color: #d1f4c3;
 }
 
 .choose .process .process-icon {
-    background-color: transparent;
-    border: 1px solid rgba(5, 27, 46, 0.2);
+  background-color: transparent;
+  border: 1px solid rgba(5, 27, 46, 0.2);
 }
 
 .choose .process .process-icon i {
-    -webkit-text-stroke-color: var(--text-color);
+  -webkit-text-stroke-color: var(--text-color);
 }
 
 .choose .process h3 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .choose .process p {
-    font-size: 18px;
+  font-size: 18px;
 }
 /***********************BOOKING**********************/
 
-.booking{
-    padding: 130px 0 80px;
-    background-color: var(--gray-light-color);
+.booking {
+  padding: 130px 0 80px;
+  background-color: var(--gray-light-color);
 }
-.book-image img{
-    border-radius: 10px;
+.book-image img {
+  border-radius: 10px;
 }
 
-.booking .appointment{
-    border-radius: 10px;
-    background-color: var(--white-color);
-    padding: 50px;
+.booking .appointment {
+  border-radius: 10px;
+  background-color: var(--white-color);
+  padding: 50px;
 }
-.appointment h3{
-    line-height: 40px;
-    margin-bottom: 25px;
-    font-size: 32px; 
-    font-family: var(--heading-font);
-    color: var(--heading-color);
-  
+.appointment h3 {
+  line-height: 40px;
+  margin-bottom: 25px;
+  font-size: 32px;
+  font-family: var(--heading-font);
+  color: var(--heading-color);
 }
 .appointment form input,
-.appointment form select{
-    line-height: 30px;
-    border-radius: 10px;
-    border: 1px solid var(--border-color);
-    padding: 9px 30px;
-    margin-bottom: 30px;
-    width: 100%;
-    font-size: 18px;
-    font-family: var(--body-font);
-   
+.appointment form select {
+  line-height: 30px;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  padding: 9px 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  font-size: 18px;
+  font-family: var(--body-font);
 }
-.appointment form .btn{
-    margin-top: 20px;
-}
-
-.booking .heading h2{
-    margin-bottom: 20px;
-}
-.booking .heading{
-    margin-bottom: 40px;
+.appointment form .btn {
+  margin-top: 20px;
 }
 
-.appointment h3{
+.booking .heading h2 {
+  margin-bottom: 20px;
+}
+.booking .heading {
+  margin-bottom: 40px;
+}
+
+.appointment h3 {
   font-size: 32px;
   font-family: var(--heading-color);
   margin-bottom: 25px;
@@ -828,3 +825,68 @@ span {
   color: var(--heading-color);
   font-weight: 700;
 }
+
+/*********footer********************************/
+footer {
+  background-image: url(../images/footer-bg.jpg);
+  justify-content: space-between;
+  background-size: cover;
+  background-position: center center;
+}
+
+.bottom-footer .heading h2 {
+  color: var(--white-color);
+}
+
+.footer-email {
+  padding: 9px 20px;
+  background-color: transparent;
+  margin-right: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 320px;
+  font-size: 18px;
+  /* color: var(--white-color); */
+}
+.footer-email::placeholder {
+  color: var(--white-color);
+}
+
+.footer-btn {
+  padding: 15px 44px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.heading .footer-para {
+  font-size: 18px;
+  margin-bottom: 25px;
+  line-height: 30px;
+  font-family: var(--heading-font);
+  align-items: center;
+  color: var(--white-color);
+}
+
+.footer-top {
+  justify-content: space-between;
+  font-size: 18px;
+  font-family: var(--heading-font);
+  padding: 50px 0 40px;
+  line-height: 30px;
+ border-bottom: 1px solid rgb(250, 249, 249);
+}
+
+.footer-widget{
+  font-size: 18px;
+  font-family:var(--heading-font);
+  padding: 100px 0 50px;
+}
+
+.footer-widget .widget-content img{
+  line-height: 30px;
+  margin-bottom: 25px;
+  max-width: 100%;
+  font-family: var(--heading-font);
+}
+
