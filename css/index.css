@@ -844,7 +844,7 @@ footer {
   margin-right: 10px;
   border: 1px solid grey;
   border-radius: 10px;
-  width: 320px;
+  width: 300px;
   font-size: 18px;
   /* color: var(--white-color); */
 }
@@ -852,12 +852,19 @@ footer {
   color: var(--white-color);
 }
 
-.footer-btn {
-  padding: 15px 44px;
+.footer-btn{
+  padding: 15px 50px;
   font-size: 18px;
   text-align: center;
-  line-height: 20px;
+  line-height: 10px;
+  border: none;
 }
+
+.footer-btn:hover{
+  background-color: var(--white-color);
+  color: var(--primary-color);
+}
+
 
 .heading .footer-para {
   font-size: 18px;
