@@ -828,3 +828,45 @@ span {
   color: var(--heading-color);
   font-weight: 700;
 }
+
+
+/************Footer**************/
+footer {
+  background-image: url(../images/footer-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  color: var(--white-color) !important;
+}
+
+footer .heading h2,
+footer .heading p {
+  color: var(--white-color) !important;
+}
+
+.footerInput {
+  background-color: transparent;
+  outline: none;
+  padding: 16px 20px;
+  width: 300px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  
+}
+
+.footerInput::placeholder {
+  color: white;
+  font-size: 18px;
+}
+
+.fBtn {
+  border: none;
+  padding: 16px 40px;
+}
+
+.fTopData {
+  justify-content: space-between;
+}
+
+/******************************/
