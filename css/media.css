@@ -1,4 +1,102 @@
-@media screen and (max-width: 576px) {
-    
+@media screen and (max-width: 768px) {
+
+   /************hero********/
+   .badge {
+      font-size: 16px;
+      align-items: center;
+   }
+
+   .hero .col-7,
+   .hero .col-5 {
+      width: 100%;
+   }
+
+   .hero-details {
+      text-align: center;
+   }
+
+   .hero-details h1 {
+      font-size: 40px;
+      line-height: 50px;
+   }
+
+   .hero-details h1 {
+      font-size: 16px;
+      margin-bottom: 50px;
+   }
+
+   .call-text p {
+      font-size: 16px;
+      text-align: left;
+
+   }
+
+   .hero-cta {
+      flex-direction: column;
+   }
+
+   /* **************aboutus******* */
+
+   .about .col-6,
+   .about .col-6 {
+      width: 100%;
+   }
+
+   .about-img img{
+      width: 100%;
+   }
+
+   .schedule-box {
+      font-size: 16px;
+      margin: 30px 0 40px;
+      padding: 30px 20px;
+   }
+
+
+   .about-box {
+      flex-direction: column;
+   }
+ 
+   .heading h2{
+      font-size: 28px;
+   }
+
+   .heading p{
+      font-size: 16px;
+   }
+  .about-data .data{
+      flex-direction: column;
+      align-items: flex-start;
+   }
+
+   .about .btn{
+      margin-bottom: 20px;
+   }
+
+   .about .call-us{
+      margin-left: 0px;
+   }
+   .about .box-1{
+      margin-left: 0px;
+   }
+
+
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
