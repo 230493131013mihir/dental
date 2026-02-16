@@ -276,6 +276,7 @@ header {
 }
 .hero-image img {
   display: block;
+  height: 100%;
 }
 
 /* ================ About Us ============== */
@@ -970,9 +971,201 @@ footer {
  color: var(--white-color);
 }
 
+/* ================== Team =================== */
+.team {
+    padding: 130px 0 85px;
+}
 
-/***********responsive**************************************/
+.team .heading {
+    text-align: center;
+}
+
+.team .heading h2 {
+    font-size: 48px;
+    line-height: 65px;
+    max-width: 700px;
+    margin: 0px auto;
+}
+
+.team .doctorimg {
+    position: relative;
+    overflow: hidden;
+    /* border: 2px solid red; */
+}
+
+.doctorimg img {
+    width: 100%;
+    border-radius: 10px;
+    /* border: 2px solid green; */
+    display: block;
+}
+
+.link {
+
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    background-color: var(--primary-color);
+    padding: 10px 17px;
+    border-radius: 0 10px 0 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.link a {
+    display: block;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.team .col-3:hover .link {
+    bottom: 0;
+}
+
+.team .about-cta {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.team .about-cta a {
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.team .about-cta p {
+    font-size: 16px;
+    font-family: var(--body-font);
+    font-weight: 400;
+    line-height: 28px;
+}
 
 
 
+/* ================== Testimonial =================== */
+.testimonial {
+    padding: 130px 0 80px;
+    background-color: var(--gray-light-color);
+}
 
+.testimonial .test-image {
+    padding-left: 85px;
+}
+
+.testimonial .test-image img {
+    border-radius: 10px;
+}
+
+.testimonial .test-slide {
+    background-color: var(--white-color);
+    padding: 25px 30px;
+}
+
+.test-slide .rating {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.test-slide .rating i {
+    color: var(--primary-color);
+    margin: 0 2px;
+}
+
+.test-slide .test-data {
+    font-size: 24px;
+    line-height: 34px;
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.test-slide .person {
+    padding-top: 30px;
+    border-top: 1px solid var(--border-color);
+}
+
+.test-slide .person .call-us {
+    margin-left: 0;
+}
+
+/* ============ FAQ ============== */
+.faq{
+    padding: 130px 0 130px;
+}
+.faq .faq-image{
+    margin-bottom: 30px;
+}
+.faq-image img{
+    border-radius: 10px;
+}
+.faq .sos-call{
+    background-color: var(--gray-light-color);
+    padding: 30px;
+    border-radius: 10px;
+}
+.sos-call .call-text a{
+    font-size: 24px;
+    line-height: 34px;
+}
+.sos-call .call-icon{
+    height: 60px;
+    width: 60px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sos-call .call-icon i{
+    font-size: 24px;
+    color: transparent;
+    -webkit-text-stroke: 1.5px var(--white-color);
+}
+.faq .faq-content{
+    padding-left: 70px;
+}
+.faq .faq-content .heading{
+    margin-bottom: 50px;
+}
+.faq-accordion .question{
+    padding: 15px 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+    height: 55px;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+.faq-accordion .question.open{
+    height: initial;
+    transition: all 0.4s;
+}
+.faq-accordion .question.open .acc-header i{
+    transform: rotate(180deg);
+}
+.question .acc-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.4s;
+}
+.question .acc-header:hover{
+    cursor: pointer;
+}
+.question .acc-header h4{
+    font-size: 18px;
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+    line-height: 25px;
+}
+.question .acc-header i{
+    font-size: 18px;
+    color: var(--primary-color);
+}
+.question .acc-body p{
+    font-size: 18px;
+    color: var(--text-color);
+    line-height: 30px;
+    padding-top: 20px;
+}
