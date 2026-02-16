@@ -638,6 +638,10 @@ span {
   padding-left: 80px;
 }
 
+.treatment-img img{
+  width:100%;
+}
+
 /* *********************Working Process *************** */
 
 .Working-process {
