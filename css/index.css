@@ -277,6 +277,7 @@ header {
   display: flex;
   align-items: center;
   row-gap: 20px;
+  justify-content: space-between;
 }
 
 .hero-details .sub-text {
