@@ -276,6 +276,7 @@ header {
 .hero-cta {
   display: flex;
   align-items: center;
+  row-gap: 20px;
 }
 
 .hero-details .sub-text {
@@ -291,7 +292,7 @@ header {
 
 .call-us {
   display: flex;
-  margin-left: 40px;
+  /* margin-left: 40px; */
 }
 
 .call-us .call-text {
@@ -313,11 +314,15 @@ header {
 
 .hero-image {
   margin-left: 50px;
+  height: 100%;
 }
 
 .hero-image img {
   display: block;
+  width: 100%;
+  background-position: bottom center;
   height: 100%;
+  object-fit: cover; 
 }
 
 /* ================ About Us ============== */
@@ -693,7 +698,6 @@ span {
 }
 
 .treatment-content {
-  width: 635px;
   padding-left: 80px;
 }
 
@@ -783,7 +787,7 @@ span {
 }
 
 .choose-img {
-  padding-left: 80px;
+  padding-left: 20px;
   margin-bottom: 70px;
   position: relative;
 }
@@ -847,6 +851,26 @@ span {
 .choose .process p {
   font-size: 18px;
 }
+
+.process-icon1{
+  /* width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  padding: 13px; */
+    border: 1px solid rgba(5, 27, 46, 0.2);  
+    display: inline-flex;
+   align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+
+
 
 /***********************BOOKING**********************/
 
@@ -1126,7 +1150,7 @@ footer {
 }
 
 .testimonial .test-image {
-  padding-left: 85px;
+  padding-left: 15px;
 }
 
 .testimonial .test-image img {
