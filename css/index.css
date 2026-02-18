@@ -618,7 +618,7 @@ span {
   font-size: 18px;
   font-family: var(--body-font);
   line-height: 30px;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   padding: 30px;
   border: 2px solid var(--border-color);
   border-radius: 10px;
@@ -690,12 +690,13 @@ span {
   font-family: var(--body-font);
   font-size: 18px;
   line-height: 30px;
+  row-gap: 10px;
 }
 
 .treatment-btn {
   font-size: 18px;
   line-height: 30px;
-  margin-right: 40px;
+  /* margin-right: 40px; */
 }
 
 .treatment-btn a {
@@ -709,6 +710,14 @@ span {
   align-items: center;
   background-color: var(--primary-color);
 }
+
+.calltext .h5{
+  padding-left: 15px;
+}
+.position{
+  /* padding-left: 15px; */
+}
+ 
 
 .treatment {
   background-color: #f1fcf9;

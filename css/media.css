@@ -454,6 +454,10 @@
     row-gap: 112px;
   }
 
+  .ourservices {
+    flex-direction: row;
+  }
+
   .service-icon h2 {
     font-size: 40px;
     line-height: 60px;
@@ -462,6 +466,7 @@
   .service-cta .btn {
     padding: 13px 40px;
   }
+
 
   .treatment-row {
     row-gap: 40px;
@@ -589,6 +594,10 @@
     padding-left: 0px;
   }
 
+  .ourservices {
+    flex-direction: row;
+  }
+
 }
 
 /* 1200-1399 xl */
@@ -686,6 +695,10 @@
 
   .about-img {
     padding-right: 0px;
+  }
+
+  .ourservices {
+    flex-direction: row;
   }
 }
 
