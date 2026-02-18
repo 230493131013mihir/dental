@@ -209,6 +209,19 @@
     text-align: center;
   }
 
+  .treatment-row {
+    row-gap: 40px;
+  }
+
+  .treatment-content {
+    padding-left: 10px;
+  }
+
+  .treatment-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
 
 
 }
@@ -331,6 +344,14 @@
     row-gap: 20px;
   }
 
+  .treatment-row {
+    row-gap: 40px;
+  }
+
+  .treatment-content {
+    padding-left: 10px;
+  }
+
 
 }
 
@@ -440,6 +461,14 @@
 
   .service-cta .btn {
     padding: 13px 40px;
+  }
+
+  .treatment-row {
+    row-gap: 40px;
+  }
+
+  .treatment-content {
+    padding-left: 10px;
   }
 
 
@@ -554,6 +583,10 @@
 
   .about-row {
     row-gap: 115px;
+  }
+
+  .treatment-content {
+    padding-left: 0px;
   }
 
 }
