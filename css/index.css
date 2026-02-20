@@ -1130,6 +1130,7 @@ footer {
   border-radius: 10px;
   /* border: 2px solid green; */
   display: block;
+  height: 350px;
 }
 
 .link {
