@@ -165,15 +165,62 @@
   }
 
   .heading h2 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .heading p {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .about-img {
+    padding-right: 0px;
+  }
+
+  .schedule-box {
+    bottom: -130px;
+    right: 1px;
+  }
+
+  .about-row {
+    row-gap: 220px;
+  }
+
+  .about-box .box-1 {
+    bottom: -195px;
+  }
+
+  .about .about-cta {
+    flex-direction: column;
+  }
+
+  .service-icon h2 {
     font-size: 35px;
     line-height: 45px;
   }
 
-    .heading p {
-    font-size: 10px;
-    line-height: 20px;
-}
+  .ourservices {
+    flex-direction: column;
+    row-gap: 20px;
+  }
 
+  .service-icon {
+    text-align: center;
+  }
+
+  .treatment-row {
+    row-gap: 40px;
+  }
+
+  .treatment-content {
+    padding-left: 10px;
+  }
+
+  .treatment-box {
+    flex-direction: column;
+    text-align: center;
+  }
 
 
 
@@ -265,6 +312,46 @@
     line-height: 25px;
   }
 
+  .about-img img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .schedule-box {
+    bottom: -135px;
+    right: 15px;
+  }
+
+  .about-img {
+    padding-right: 0px;
+  }
+
+  .about-row {
+    row-gap: 120px;
+  }
+
+  .service-cta {
+    flex-shrink: 0;
+  }
+
+  .service-icon h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .ourservices {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .treatment-row {
+    row-gap: 40px;
+  }
+
+  .treatment-content {
+    padding-left: 10px;
+  }
+
 
 }
 
@@ -349,7 +436,51 @@
     line-height: 30px;
   }
 
+  .about-img img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .about-img {
+    padding-right: 0px;
+  }
+
+  .schedule-box {
+    bottom: -92px;
+    right: 25px;
+  }
+
+  .about-row {
+    row-gap: 112px;
+  }
+
+  .ourservices {
+    flex-direction: row;
+  }
+
+  .service-icon h2 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .service-cta .btn {
+    padding: 13px 40px;
+  }
+
+
+  .treatment-row {
+    row-gap: 40px;
+  }
+
+  .treatment-content {
+    padding-left: 10px;
+  }
+
+
 }
+
+
+
 
 /* 992-1199 lg */
 @media screen and (min-width: 992px) {
@@ -434,6 +565,37 @@
   .heading p {
     font-size: 18px;
     line-height: 30px;
+  }
+
+  .about-img img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .schedule-box {
+    bottom: 0;
+    right: 120px;
+  }
+
+  .about-img {
+    padding-right: 0px;
+  }
+
+  .schedule-box {
+    bottom: -100px;
+    right: 40px;
+  }
+
+  .about-row {
+    row-gap: 115px;
+  }
+
+  .treatment-content {
+    padding-left: 0px;
+  }
+
+  .ourservices {
+    flex-direction: row;
   }
 
 }
@@ -526,7 +688,21 @@
     padding-left: 70px;
   }
 
+  .schedule-box {
+    bottom: -100px;
+    right: 30px;
+  }
+
+  .about-img {
+    padding-right: 0px;
+  }
+
+  .ourservices {
+    flex-direction: row;
+  }
 }
+
+
 
 /* 1400-any xxl */
 @media screen and (min-width: 1400px) {

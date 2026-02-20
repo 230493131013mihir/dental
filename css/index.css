@@ -323,7 +323,7 @@ header {
   width: 100%;
   background-position: bottom center;
   height: 100%;
-  object-fit: cover; 
+  object-fit: cover;
 }
 
 /* ================ About Us ============== */
@@ -335,10 +335,19 @@ header {
   padding-right: 100px;
 }
 
+.about-row {
+  row-gap: 20px;
+}
+
 .about-img img {
   display: block;
   border-radius: 10px;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center center;
 }
+
 
 .about-data .data {
   display: flex;
@@ -382,6 +391,8 @@ header {
 .about .about-cta {
   display: flex;
   align-items: center;
+  row-gap: 20px;
+  column-gap: 20px;
 }
 
 .about-box {
@@ -394,8 +405,11 @@ header {
   background-color: var(--gray-light-color);
   padding: 15px;
   border-radius: 10px;
-  margin: 30px 0 0 30px;
+  /* margin: 30px 0 0 30px; */
   max-width: 190px;
+  bottom: -105px;
+  position: absolute;
+  left: 0px;
 }
 
 .about-box .box-1 .count {
@@ -500,9 +514,11 @@ span {
   padding: 80px 0;
 }
 
-.achievement .row {
+.achievement .achieve-row {
   align-items: center;
+  padding-left: 20px;
 }
+
 
 .achievement .col-3 {
   border-left: 1px solid var(--white-color);
@@ -537,10 +553,6 @@ span {
   line-height: 34px;
 }
 
-.achiev {
-  padding: 0 12px 0 50px;
-}
-
 .achiev h2 {
   font-size: 48px;
   color: var(--white-color);
@@ -560,6 +572,13 @@ span {
   padding: 130px 0 80px 0;
 }
 
+
+.serv-row {
+  row-gap: 20px;
+  justify-content: center;
+}
+
+
 .ourservices {
   display: flex;
   justify-content: space-between;
@@ -569,6 +588,7 @@ span {
 .service-head {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 .service-head .icons {
@@ -586,10 +606,6 @@ span {
   -webkit-text-stroke: 2px var(--white-color);
 }
 
-.service-icon {
-  width: 50%;
-}
-
 .service-icon h2 {
   font-size: 48px;
   font-family: var(--heading-font);
@@ -602,7 +618,7 @@ span {
   font-size: 18px;
   font-family: var(--body-font);
   line-height: 30px;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   padding: 30px;
   border: 2px solid var(--border-color);
   border-radius: 10px;
@@ -612,7 +628,7 @@ span {
   font-size: 18px;
   font-weight: 500;
   line-height: 1px;
-  padding: 12px 24px;
+  padding: 20px 25px;
   border-radius: 30px;
   font-family: var(--heading-font);
   background-color: #f1f3fc;
@@ -674,12 +690,13 @@ span {
   font-family: var(--body-font);
   font-size: 18px;
   line-height: 30px;
+  row-gap: 10px;
 }
 
 .treatment-btn {
   font-size: 18px;
   line-height: 30px;
-  margin-right: 40px;
+  /* margin-right: 40px; */
 }
 
 .treatment-btn a {
@@ -693,6 +710,14 @@ span {
   align-items: center;
   background-color: var(--primary-color);
 }
+
+.calltext .h5{
+  padding-left: 15px;
+}
+.position{
+  /* padding-left: 15px; */
+}
+ 
 
 .treatment {
   background-color: #f1fcf9;
@@ -715,8 +740,12 @@ span {
 }
 
 .treatment-img img {
-  width: 100%;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center center;
 }
+
 
 /* *********************Working Process *************** */
 
@@ -853,21 +882,21 @@ span {
   font-size: 18px;
 }
 
-.process-icon1{
+.process-icon1 {
   /* width: 50px;
   height: 50px;
   border-radius: 50%;
   border: 1px solid black;
   padding: 13px; */
-    border: 1px solid rgba(5, 27, 46, 0.2);  
-    display: inline-flex;
-   align-items: center;
-    justify-content: center;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    font-size: 35px;
-    margin-bottom: 20px;
+  border: 1px solid rgba(5, 27, 46, 0.2);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  font-size: 35px;
+  margin-bottom: 20px;
 }
 
 
