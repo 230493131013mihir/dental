@@ -221,9 +221,9 @@
     flex-direction: column;
     text-align: center;
   }
-/* ===== Header ===== */
+/*===== Header ===== */
 
-.top-header{
+ .top-header{
 flex-direction: column;
 row-gap:20px;
 }
@@ -235,7 +235,7 @@ justify-content:center;
 
 .menu li{
 padding:8px 10px;
-}
+} 
 
 /* ===== Team ===== */
 
@@ -393,7 +393,7 @@ margin-top:30px;
   }
 /* ===== Header ===== */
 
-.top-header{
+/* .top-header{
 flex-direction:column;
 row-gap:20px;
 }
@@ -401,7 +401,7 @@ row-gap:20px;
 .menu{
 flex-wrap:wrap;
 justify-content:center;
-}
+} */
 
 
  /* ===== Team ===== */
@@ -554,7 +554,7 @@ margin-top:30px;
   }
 /* ===== Header ===== */
 
-.top-header{
+/* .top-header{
 flex-direction:column;
 row-gap:20px;
 }
@@ -562,7 +562,7 @@ row-gap:20px;
 .menu{
 flex-wrap:wrap;
 justify-content:center;
-}
+} */
 /* ===== Team ===== */
 
 .team .doctorimg img{
@@ -711,9 +711,9 @@ padding-left:20px;
   }
 /* ===== Header ===== */
 
-.menu li{
+/* .menu li{
 padding:0 12px;
-}
+} */
 /* ===== Services ===== */
 
 .service-box{
@@ -926,14 +926,14 @@ width:270px;
   }
   /* ===== Header ===== */
 
-.top-header{
+ /* .top-header{
 flex-direction:column;
 row-gap:20px;
-}
+} 
 
 .menu{
 flex-wrap:wrap;
 justify-content:center;
-}
+}  */
 
 }
