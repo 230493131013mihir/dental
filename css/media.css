@@ -221,6 +221,46 @@
     flex-direction: column;
     text-align: center;
   }
+/* ===== Header ===== */
+
+.top-header{
+flex-direction: column;
+row-gap:20px;
+}
+
+.menu{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.menu li{
+padding:8px 10px;
+}
+
+/* ===== Team ===== */
+
+.team .doctorimg img{
+height:300px;
+}
+
+/* ===== Booking ===== */
+
+.booking .appointment{
+margin-top:40px;
+}
+
+/* ===== Testimonial ===== */
+
+.testimonial .test-image{
+margin-top:40px;
+}
+
+/* ===== FAQ ===== */
+
+.faq .faq-content{
+padding-left:0;
+margin-top:30px;
+}
 
 
 
@@ -351,6 +391,43 @@
   .treatment-content {
     padding-left: 10px;
   }
+/* ===== Header ===== */
+
+.top-header{
+flex-direction:column;
+row-gap:20px;
+}
+
+.menu{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+
+ /* ===== Team ===== */
+
+.team .doctorimg img{
+height:300px;
+}
+
+/* ===== Booking ===== */
+
+.booking .appointment{
+margin-top:40px;
+}
+
+/* ===== Testimonial ===== */
+
+.testimonial .test-image{
+margin-top:40px;
+}
+
+/* ===== FAQ ===== */
+
+.faq .faq-content{
+padding-left:0;
+margin-top:30px;
+}
 
 
 }
@@ -475,6 +552,41 @@
   .treatment-content {
     padding-left: 10px;
   }
+/* ===== Header ===== */
+
+.top-header{
+flex-direction:column;
+row-gap:20px;
+}
+
+.menu{
+flex-wrap:wrap;
+justify-content:center;
+}
+/* ===== Team ===== */
+
+.team .doctorimg img{
+height:320px;
+}
+
+/* ===== Booking ===== */
+
+.booking .appointment{
+margin-top:40px;
+}
+
+/* ===== Testimonial ===== */
+
+.testimonial .test-image{
+margin-top:40px;
+}
+
+/* ===== FAQ ===== */
+
+.faq .faq-content{
+padding-left:20px;
+}
+
 
 
 }
@@ -597,6 +709,26 @@
   .ourservices {
     flex-direction: row;
   }
+/* ===== Header ===== */
+
+.menu li{
+padding:0 12px;
+}
+/* ===== Services ===== */
+
+.service-box{
+padding:28px;
+}
+/* ===== Team ===== */
+
+.team .doctorimg img{
+height:340px;
+}
+  /* ===== Footer ===== */
+
+.footer-email{
+width:250px;
+}
 
 }
 
@@ -700,6 +832,17 @@
   .ourservices {
     flex-direction: row;
   }
+
+.team .doctorimg img{
+height:350px;
+}
+
+/* ===== Footer ===== */
+
+.footer-email{
+width:270px;
+}
+
 }
 
 
@@ -770,6 +913,9 @@
     padding: 0 12px;
   }
 
+.hero-image{
+  margin-left: 50px;
+}
 
   .footer-email {
     width: 300px;
@@ -778,5 +924,16 @@
   .footer-btn {
     padding: 19px 50px;
   }
+  /* ===== Header ===== */
+
+.top-header{
+flex-direction:column;
+row-gap:20px;
+}
+
+.menu{
+flex-wrap:wrap;
+justify-content:center;
+}
 
 }
